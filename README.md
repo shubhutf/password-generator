@@ -54,6 +54,10 @@ js:-
 p1El.textContent = p1
 p2El.textContent = p2
 
+## 🚀 **Live Site**
+### 👉 [**Open Password Generator**](https://password-generator-shubhu.netlify.app/)
+
+
 🖼 Screenshot
 ![App Screenshot](./password-generator-image.png)
 
