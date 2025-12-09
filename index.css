@@ -1,0 +1,85 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  background: #1C1C1C;
+  display: flex;
+  justify-content: center;
+  padding: 40px 0;
+  font-family: system-ui, sans-serif;
+  color: #F9FAFB;
+}
+
+.page {
+  width: 630px;
+  /* optional height: auto so it grows with content */
+}
+
+/* container with inner spacing so children positions are easy */
+#space {
+  background: #1F2937;
+  width: 93%;
+  padding: 48px 52px; /* replaces many manual margin-tops/lefts */
+  border-radius: 8px;
+}
+
+/* title */
+#title {
+  width: 500px;
+  height: 80px;
+  margin: 0 0 12px 0; /* spacing below title */
+  line-height: 50px;
+  font-size: 28px;
+  color: #F9FAFB;
+}
+
+/* small text variants */
+#text1 { color: #F9FAFB; margin-bottom: 6px; }
+#text2 { color: #0b825b; margin-bottom: 6px; }
+#text3 {
+  width: 372px;
+  height: 28px;
+  margin: 50px 0 18px 0;
+  color: #D5D4D8;
+  line-height: 28px;
+}
+
+/* button */
+#btn {
+  background: #10B981;
+  width: 191px;
+  height: 42px;
+  border-radius: 6px;
+  border: none;
+  padding: 9px 17px;
+  cursor: pointer;
+  font-weight: 600;
+  margin-top: 12px;
+  color: #F9FAFB;
+}
+
+/* horizontal line */
+#out_line {
+  width: calc(100% - 52px); /* example, adjust as needed */
+  border: none;
+  height: 1px;
+  background: #2F3E53;
+  margin: 24px 0;
+}
+
+/* rectangles as flex children */
+#rectangle {
+  display: flex;
+  gap: 24px;
+  margin-top: 12px;
+}
+
+#rectangle1, #rectangle2 {
+  width: 211px; /* added px */
+  height: 39px;
+  border-radius: 6px;
+  background: #273549;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    color : #55F991;
+}
